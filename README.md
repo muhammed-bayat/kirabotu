@@ -16,3 +16,12 @@ Bu Telegram botu, bir grup insan arasında kira ödemelerini takip etmek için k
 - `/list_users` - Tüm kullanıcıları listeler.
 - `/monthly_report` - Aylık rapor gönderir.
 - `/summary` - Kullanıcının ödeme geçmişini görüntüler.
+
+
+Aylık toplam gider: 3750.0 TL,
+ Kira payı: 2000 TL, 
+Ödenen miktar: 1750.0 TL
+
+Muhammed 750.0 TL borçludur.
+
+Elif 1000.0 TL fazla ödeme yaptı.
