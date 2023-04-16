@@ -29,6 +29,10 @@ def start_command(message):
 @bot.message_handler(commands=['pay'])
 def pay_command(message):
     user_id = message.chat.id
+    if user_id not in users:
+        bot.reply_to(message, "Önce /start komutunu kullanarak başlamalısınız.")
+        return
+
     user_data = users[user_id]
     user_data["last_payment"] = datetime.date.today()
     try:
